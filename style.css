@@ -1,0 +1,450 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    line-height: 1.2;
+}
+
+body{
+    background-color: Snow;
+}
+
+h3{
+    font-size: 4vw;
+    color: #212121;
+    margin-bottom: 1vh;
+}
+
+h4{
+    font-family: 'Shadows Into Light';
+    font-size: 5vw;
+    letter-spacing: 1px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 1vh;
+}
+
+h1{
+    font-size: 3vw;
+}
+
+section{
+    margin-top: 6vh;
+}
+
+ 
+article{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    margin: 1vw 3vw 0 3vw;
+    }
+
+.box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90vw;
+}
+
+p{
+    color: DimGray;
+    font-size: 3vw;
+}
+
+/* Showcase */
+#showcase article{
+    margin-top: 3vh;
+    width: auto;
+    background-color: #212121;
+    background-image: url("showcase.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+ /*   background-blend-mode: color-dodge; */
+    border-radius: 2vw;
+    
+}
+#showcase .box.container1{
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 2vw;
+    padding: 2vw;
+    height: 25vh;
+    background-color: #212121;
+    opacity: 0.6;
+}
+
+#showcase h1{
+    text-transform: uppercase;
+    margin-bottom: 1vh;
+    color: Snow;
+    opacity: 1;
+}
+
+#showcase p{
+    color: Snow;
+    opacity: 1;
+    text-align: center;
+}
+
+
+
+/* MENU */
+#menu article{
+    margin-top: 2vh;
+    justify-content: space-between;
+}
+
+#menu .box{
+    width: auto;
+}
+
+#menu .box.logo a{
+    font-size: 3vw;
+    font-family: 'Shadows Into Light';
+    font-weight: 600;
+    color: DimGray;
+    letter-spacing: 3px;
+    text-decoration: none;
+}
+
+#menu .box span img{
+    height: 3vw;
+}
+
+#menu .box.links ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#menu .box.links li{
+    list-style: none;
+    margin-left: 3vw;
+}
+
+#menu .box.links a{
+    font-size: 3vw;
+    color: DimGray;
+    text-decoration: none;
+}
+
+#menu .box.links a:hover{
+    color: #7ba428;
+}
+
+
+
+/* Ajude os Pets */
+#ajude article{
+    margin-top: 3vh;
+}
+
+#ajude .left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    margin-right: 2vw;
+}
+
+#ajude .left a{
+    background-color: #00b0b3;
+    padding: 1vw;
+    border-radius: 1vw;
+    margin-top: 1vh;
+    width: 20vw;
+    color: Snow;
+    text-align: center;    
+    text-decoration: none;
+    font-size: 1vh;
+}
+
+#ajude .left a:hover{
+    background-color: #009699;
+}
+
+#ajude .right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#ajude .right img{
+    width: 19vh;
+    height: auto;
+    border-radius: 45% 25% 25% 75%;
+}
+
+
+
+/* COMO ADOTAR */
+#como-adotar article {
+    margin-top: 2vh;
+}
+
+#como-adotar .steps p span img{
+    width: 3vw;
+    height: auto;
+    margin-left: 1vw;
+}
+
+#como-adotar .container3 .leftimage{
+    width: 17vh;
+    height: auto;
+    border-radius: 1vw;
+    margin-right: 10vw;
+}
+
+
+
+
+/* Casas de Adoção */
+
+#casadeadocao .c-carousel{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    margin: 1vh 3vw 0 3vw;
+    padding: 1vw;
+}
+
+#casadeadocao .c-carousel__slides{
+    padding-bottom: 3vw;
+    width: 90vw;
+    height: auto;
+    border-radius: 3vw;
+}
+
+    #casadeadocao .c-carousel__slide{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3vw;
+   /* width: 20px; */
+   /* height: 20px;*/
+    margin: 1vw;
+    overflow: hidden;
+    box-shadow: 0 1vw 1vw #888888;
+}
+
+#casadeadocao .c-carousel__slide .image{
+    background-color: snow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3vw 3vw 0 0;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 75%;
+    overflow: hidden;
+} 
+
+    #casadeadocao .c-carousel__slide .image img{
+    width: 100%;
+    height: 100%;
+}
+
+    #casadeadocao .c-carousel__slide .text{
+    background-color: #007d80;
+    width: 100%;
+    height: 25%;
+    margin-top: 1vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1vh;
+    border-radius: 0 0 3vw 3vw;
+}
+
+    #casadeadocao .c-carousel__slide .text p{
+    font-size: 4vw;
+    text-align: center;
+    color: Snow;
+    width: 100%;
+    padding: 1vw 2vw 1vw 2vw;
+ /*   padding: 10px 10px 0 10px; */
+    opacity: 0.8;
+}
+   
+    #casadeadocao .c-carousel__slide .text button{
+    border-radius: 1vw;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    padding: 1vw 2vw 1vw 2vw;
+    opacity: 0.9;
+    border: none;
+    font-size: 3vw;
+    color: DimGray;
+    
+}
+
+#casadeadocao .c-carousel__slide .text button:hover{
+    opacity: 1;
+    background-color: Snow;
+}
+
+
+#casadeadocao .divbuttons{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1vh;
+}
+
+.js-carousel--simple-next, .js-carousel--simple-prev{
+    border: 0;
+    border-radius: 3px;
+    padding: 1vw;
+    background-color: Snow;
+    opacity: 0.5;
+    justify-content: center;
+    align-items: center;
+}
+
+.js-carousel--simple-next img, .js-carousel--simple-prev img{
+    width: 3vw;
+    height: 3vw;
+}
+
+
+.js-carousel--simple-next:hover, .js-carousel--simple-prev:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+js-carousel--simple-dots{
+    width: 3vw;
+    height: 3vw;
+    
+}
+
+
+
+
+
+/* Hábitos Saudáveis */
+#habsaudaveis article{
+    margin-top: 1vh;
+}
+
+#habsaudaveis .box.container4{
+    flex-direction: column;
+    border-radius: 2vw;
+    padding: 2vw;
+ /*   background-image: linear-gradient(snow, snow, snow, linen); */
+}
+
+
+#habsaudaveis .box.container4 div{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-wrap: wrap;
+    width: 90%;
+    padding: 2vw;
+}
+
+#habsaudaveis .container4 div p{
+    width: 35%;
+    color: DimGray;
+}
+
+#habsaudaveis .container4 img{
+    width: 8vw;
+    height: auto;
+    margin-right: 10vw;
+}
+
+
+
+/* FOOTER */
+
+footer section{
+    margin-top: 8vh;
+}
+
+footer article{
+    flex-direction: column;
+    background-color: #212121;
+    margin: 0;
+    padding: 5vw;
+}
+
+footer .boxfooter{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 5vh;
+}
+
+footer .boxfooter p{
+    color: Snow;
+    opacity: 0.6;
+}
+
+footer .boxfooter p span{
+    font-family: 'Shadows Into Light';
+}
+
+footer .links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+footer .links .i{
+    border-radius: 2vw;
+    margin: 1vw;
+}
+
+footer .links a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2vw;
+    width: 8vw;
+    color: Snow;
+    text-align: center;    
+    text-decoration: none;
+    font-size: 1vh;
+}
+
+footer .links a:hover{
+    border-bottom: 0.2vh solid Gray;
+}
+
+footer .links .i.facebook{
+    background-color: #385898;
+}
+
+footer .links .i.instagram{
+  background: #f09433; 
+background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+}
+
+footer .links .i.youtube{
+    background-color: #E03830;
+}
+
+footer .links .i.twitter{
+    background-color: #50A8E8;
+}
+
+footer a span img{
+    width: 5vw;
+}
